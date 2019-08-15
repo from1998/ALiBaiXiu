@@ -54,6 +54,7 @@ $('#formBox').on('submit', '#modifyCategory', function() {
 
     return // 阻止表单默认提交行为
 })
+
 $('#categoriesList').on('click', '.delete', function() {
     if (confirm('您真的要执行删除操作吗')) {
         // 获取要删除的分类数据id
@@ -67,4 +68,4 @@ $('#categoriesList').on('click', '.delete', function() {
             }
         })
     }
-});
+})
